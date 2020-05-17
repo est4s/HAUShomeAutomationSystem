@@ -25,24 +25,24 @@ Wireless Communication: Wifi is used to communicate with the android app.
 
 # Implementation
 The project can be divided to five parts. 
-1. **Model House**
+**1. Model House**
 ![IMG_4622](https://user-images.githubusercontent.com/53571773/82151921-c5276180-9866-11ea-8fe6-56c40adcb574.JPG)
 Model house has the leds, temperature sensor, gas sensor. All the leds are controlled from the mobile application and the sensor data can be read from the app. Box cardboard is used for the whole structure. Some printed papers are glued to the floor to have more realistic look. A morning routine using timer is also added to the house, there will be more depth information about that in requirements section.
 
-2. **Sterilization Box**
+**2. Sterilization Box**
 ![IMG_4626](https://user-images.githubusercontent.com/53571773/82151990-2ea77000-9867-11ea-8dc0-6af58227ef85.JPG)
 Sterilization box has a tank for the disinfectant liquid with a 6V liquid pump.  It has a ultrasonic sensor(hc-sr04) to indicate in the app that if the box is full or not. The box itself is made of aluminum and pvc transparent cover. Disinfectant liquid is push to the box by a plastic pipe, and sprayed by a nozzle. The nozzle is made by myself from a plastic part which is drilled from the tip. Ultrasonic sensor looks top to bottom vertically. Nozzle looks from a corner to the furthest corner. 
 ![IMG_4628](https://user-images.githubusercontent.com/53571773/82152005-4252d680-9867-11ea-9a08-3b5b49f9e39d.JPG)
 
-3. **Mobile Application**
+**3. Mobile Application**
 ![Group 1](https://user-images.githubusercontent.com/53571773/82152039-70d0b180-9867-11ea-8027-33932e5d69cd.png)
 The mobile application named H.A.U.S is designed in  a graphic design software called Figma, and built in MIT App Inventor. Application starts with a login page, asks for a password. Password can be changed if the authentication code which is embedded to the NodeMcu’s EEPROM known. The password and authentication code are both stored in database. In main page of the app there are 3 sections: bedroom, living room, bathroom, sterilization box and emergency section. Bedroom, living room and bathroom a have lighting control, kitchen has a relay control that can be used for any electric device, sterilization box has a cleaning button to trigger the liquid pump and box state indicator that shows if box is full or not, and finally the emergency section has an emergency button to stop anything that is going on and restart.  
 
-4. **Database**
+**4. Database**
 ![firebase](https://user-images.githubusercontent.com/53571773/82152066-8c3bbc80-9867-11ea-86d9-84a681f75d9b.jpg)
 Firebase is used as database for this project. It is best of the free cloud data bases that is tried in process of this project. It doesn’t have a limit for data transfer when for example Thingspeak has 1 data per 15 seconds.  Any data that should be transferred between NodeMcu and mobile application are flows through this data base that can be seen above. 
 
-5. **Circuit Board**
+**5. Circuit Board**
 ![IMG_4631](https://user-images.githubusercontent.com/53571773/82152077-a5446d80-9867-11ea-8288-469785828002.JPG)
 For the circuit board, double side epoxy prototype pcb is used. The NodeMcu’s, leds, sensors and relays are connected to the board by using headers that are soldered to the board. Sketch of the circuit is given in design section.
 
