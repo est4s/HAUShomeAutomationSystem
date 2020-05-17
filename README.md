@@ -26,3 +26,4 @@ Wireless Communication: Wifi is used to communicate with the android app.
 # Implementation
 The project can be divided to five parts. 
 1.Model House
+![IMG_4622](https://user-images.githubusercontent.com/53571773/82151921-c5276180-9866-11ea-8fe6-56c40adcb574.JPG)
