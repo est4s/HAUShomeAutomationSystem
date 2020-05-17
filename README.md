@@ -9,13 +9,13 @@ The Wifi Based Home Automation System is including main features which are lamps
 Basic circuit design is given below.
 ![Untitled Sketch 2_bb](https://user-images.githubusercontent.com/53571773/82151854-5fd37080-9866-11ea-8d83-9b56c153c298.jpg)
 Materials used in circuit: 
-• 2* NodeMcu 
-• 3*Led 
-• 4 Channel Relay Module 
-• 6 Volt Liquid Pump 
-• Dht11 Temperature-Humidity Sensor 
-• Hc-sr04 Ultrasonic Distance Sensor 
-• MQ2 Gas Sensor
+- 2* NodeMcu 
+- 3*Led 
+- 4 Channel Relay Module 
+- 6 Volt Liquid Pump 
+- Dht11 Temperature-Humidity Sensor 
+- Hc-sr04 Ultrasonic Distance Sensor 
+- MQ2 Gas Sensor
 
 # Requirements
 Interrupt: A wireless interrupt is used in this project which is triggered by another NodeMcu board. The emergency button in the mobile application changes a variable called power from “0” to “1” on the database. As soon as the value changes the interrupt NodeMcu reads the data, triggers a relay which is connected to the main NodeMcu board, and changes the variables that controls the states of output elements to off. The interrupt triggered on the main board changes every output elements to off state and waits 6 second to restart working.  
