@@ -25,6 +25,7 @@ Wireless Communication: Wifi is used to communicate with the android app.
 
 # Implementation
 The project can be divided to five parts. 
+
 **1. Model House**
 ![IMG_4622](https://user-images.githubusercontent.com/53571773/82151921-c5276180-9866-11ea-8fe6-56c40adcb574.JPG)
 Model house has the leds, temperature sensor, gas sensor. All the leds are controlled from the mobile application and the sensor data can be read from the app. Box cardboard is used for the whole structure. Some printed papers are glued to the floor to have more realistic look. A morning routine using timer is also added to the house, there will be more depth information about that in requirements section.
