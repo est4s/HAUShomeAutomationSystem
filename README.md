@@ -1,4 +1,4 @@
-# HAUShomeAutomationSystem
+# HAUS HomeAutomationSystem
 This is a university project for Microprocessors course in Işık University.
 
 # Summary
